@@ -1,0 +1,12 @@
+<!-- author_detail.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Author Details</h2>
+    <div>
+        <h3>{{ author.first_name }} {{ author.last_name }}</h3>
+        <p>Email: {{ author.email }}</p>
+
+    </div>
+{% endblock %}
